@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 80%;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    background: rgb(50, 100, 195);
+    background: -moz-linear-gradient(90deg, rgba(50, 100, 195, 1) 0%, rgba(122, 155, 97, 1) 100%, rgba(214, 104, 16, 0.40513478340554976) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(50, 100, 195, 1) 0%, rgba(122, 155, 97, 1) 100%, rgba(214, 104, 16, 0.40513478340554976) 100%);
+    background: linear-gradient(90deg, rgba(50, 100, 195, 1) 0%, rgba(122, 155, 97, 1) 100%, rgba(214, 104, 16, 0.40513478340554976) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3264c3", endColorstr="#d66810", GradientType=1);
+}
+h1{
+    margin-top: 100px;
+    color: white;
+    font-weight: 700 !important;
+}
+.wrapper {
+    position: relative;
+    margin: 100px auto 10px;
+    width: 20%;
+    height: 100px !important;
+    min-width: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 30% 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+#card{
+    height: 100px !important;
+}
+.top-color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aqua;
+    height: 60%;
+    z-index: 1;
+    border-radius:10px;
+}
+#hp{
+    background-color: white;
+    position: absolute;
+    right: 7%;
+    top: 7%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.wrapper h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+span.type{
+    padding: 5px;
+    border-radius: 7px;
+}
+.stats{
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px !important;
+
+}
+.stats p {
+    color: #404060;
+}
+#generate {
+    cursor: pointer;
+    display: block;
+    padding: 15px 60px;
+    font-size: 18px;
+    background-color: #101010;
+    color: #ffffff;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+  }
+  .attack{
+    font-size: 20px;
+    font-weight: 600;
+  }
+#card-img{
+    max-height: 110%;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+#types{
+    display: flex;
+    justify-content: space-around;
+}
+#types span{
+    font-size: 16px;
+    font-weight: 600;
+}
+@media (max-width:1200px) {
+    .wrapper{
+        min-height: 400px;
+    }
+}
